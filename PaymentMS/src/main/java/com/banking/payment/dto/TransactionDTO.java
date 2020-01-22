@@ -1,8 +1,8 @@
-package com.banking.dto;
+package com.banking.payment.dto;
 
 import java.util.Date;
 
-import com.banking.entity.Transaction;
+import com.banking.payment.entity.Transaction;
 
 
 public class TransactionDTO {

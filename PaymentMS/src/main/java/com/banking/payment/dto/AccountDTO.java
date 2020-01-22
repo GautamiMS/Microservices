@@ -1,9 +1,9 @@
-package com.banking.dto;
+package com.banking.payment.dto;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
-import com.banking.entity.Account;
+import com.banking.payment.entity.Account;
 
 public class AccountDTO {
 	@NotNull(message = "Account number can't be null")

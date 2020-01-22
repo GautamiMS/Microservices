@@ -1,4 +1,4 @@
-package com.banking.exception;
+package com.banking.payment.exception;
 
 public class InsufficientFundException extends RuntimeException {
 	  /**

@@ -1,8 +1,8 @@
-package com.banking.repository;
+package com.banking.payment.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.banking.entity.Account;
+import com.banking.payment.entity.Account;
 
 public interface AccountRepository extends JpaRepository<Account, Integer> {
 	//public String getAccountById(Integer accountNumber);

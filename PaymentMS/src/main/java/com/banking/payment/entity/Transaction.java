@@ -1,4 +1,4 @@
-package com.banking.entity;
+package com.banking.payment.entity;
 
 import java.util.Date;
 

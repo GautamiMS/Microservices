@@ -1,4 +1,4 @@
-package com.banking.service;
+package com.banking.payment.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,9 +10,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.banking.dto.AccountDTO;
-import com.banking.entity.Account;
-import com.banking.repository.AccountRepository;
+import com.banking.payment.dto.AccountDTO;
+import com.banking.payment.entity.Account;
+import com.banking.payment.repository.AccountRepository;
 
 @Service
 public class AccountService {

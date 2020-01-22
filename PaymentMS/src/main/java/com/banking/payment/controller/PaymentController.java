@@ -1,4 +1,4 @@
-package com.banking.controller;
+package com.banking.payment.controller;
 
 import java.util.Date;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.banking.dto.AccountDTO;
-import com.banking.dto.TransactionDTO;
-import com.banking.exception.InsufficientFundException;
-import com.banking.service.AccountService;
+import com.banking.payment.dto.AccountDTO;
+import com.banking.payment.dto.TransactionDTO;
+import com.banking.payment.exception.InsufficientFundException;
+import com.banking.payment.service.AccountService;
 
 @RestController
 public class PaymentController {

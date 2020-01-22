@@ -1,4 +1,4 @@
-package com.banking.exception;
+package com.banking.payment.exception;
 
 import java.util.Optional;
 
